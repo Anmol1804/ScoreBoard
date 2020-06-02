@@ -20,6 +20,7 @@ p1btn.addEventListener("click",function(){
             gameover = true;
             p1score.classList.add("green");
             winnerresult.textContent = "Player 1 has won the game!";
+            winnerresult.classList.add("green");
         }
     }
 
@@ -33,6 +34,7 @@ p2btn.addEventListener("click",function(){
             gameover = true;
             p2score.classList.add("green");
             winnerresult.textContent = "Player 2 has won the game!";
+            winnerresult.classList.add("green");
         }
     }
 });
